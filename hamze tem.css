@@ -1,0 +1,264 @@
+body
+{
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url(templated-phaseshift/images/bg.jpg);
+    background-attachment: fixed;
+    height: 3000px;
+}
+
+.continer
+{
+    width: 1250px;
+    margin: auto;
+}
+.header
+{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+.header .logo h3
+{
+    margin: 0;
+    padding: 0;
+    color: white;
+    padding-top: 22px;
+    font-size: 25px;
+    float: left;
+}
+.header .nav ul
+{
+    color: white;
+    float: right;
+    list-style-type: none;
+    
+}
+.header .nav ul li
+{
+    
+    float: left;
+    padding: 10px;
+    font-size: 20px;
+   
+}
+.header .nav ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+.header .nav ul li a:hover
+{
+    color: bisque;
+    font-size: 30px;
+}
+.clear{clear: both; }
+.contant
+{
+    width: 100%;
+    height: 80vh;
+    margin-bottom: -10px;
+}
+.contant .about p
+{
+    padding: 0px;
+    margin: 0;
+    text-align: center;
+    padding-top: 90px;
+    font-size: 40px;
+    color: white;
+    
+}
+.contant .about .bb 
+{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.contant .about .bb button
+{
+    width: 230px;
+    height: 60px;
+    background-color: bisque;
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.contant .about button:hover
+{
+    background-color: white;
+}
+/** start blog */
+
+.blog
+{
+    width: 100%;
+    
+}
+.blog .part
+{
+    width: 29%;
+    height: 430px;
+    background-color: white;
+    margin-top: 20px;
+    float: left;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 20px;
+}
+.blog .part img 
+{
+    width: 100%;
+    height: 150px;
+    opacity: 0.11;
+}
+.blog .part img:hover
+{
+    opacity: 1;
+}
+.blog .part p
+{
+    text-align: center;
+    margin-top: 12px;
+    padding: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: black;
+}
+.blog .part p button
+{
+    width: 150px;
+    height: 50px;
+    background-color: bisque;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    opacity: 0.10;
+}
+.blog .part p button:hover
+{
+    opacity: 1;
+}
+
+/** End blog */
+
+/** start blog2 */
+
+.blog2
+{
+    width: 100%;
+   margin-top:50px;
+    color: white;
+    height: 500px;
+}
+.blog2 .part2
+{
+    width: 45%;
+    height:200px;
+    float: left;
+    margin: 30px;
+}
+.blog2 .part2 i
+{
+    width:15%;
+    height: 100%;
+    float: left;
+    padding-top: 20px;
+}
+.blog2 .part2 .hp
+{
+    width:80%;
+    float:left;
+    line-height: 30px;
+}
+
+
+/** End blog2 */
+/** start contant */
+.contact
+{
+    width:100%;
+    height: 120vh;
+    margin: auto;
+    background-color:palevioletred;
+    
+}
+.contact h1,p 
+{
+    text-align: center;
+    color: white;
+
+} 
+.contact h1
+{
+    padding-top: 100px;
+    font-size: 45px;
+    
+}
+.contact p
+{
+    font-size: 25px;
+    
+}
+.contact form
+{
+    text-align: center;
+}
+.contact form input
+{
+    width: 800px;
+    padding: 15px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+}
+.contact form textarea
+{
+    width: 800px;
+    height: 150px;
+    padding: 15px;
+    margin: 10px;
+     border: none;
+    border-radius: 8px;
+}
+.contact form .button 
+{
+    width: 200px;
+    height: 60px;
+    background-color:palevioletred;
+    color: white;
+    border: 1px solid white;
+    cursor:pointer;
+    font-size: 25px;
+    padding: 15px;
+    
+    
+}
+.contact form .button:hover
+{
+    color: deeppink;
+}
+.contact form input:hover
+{
+    background-color: white;
+}
+/** End contant */
+.footer
+{
+    width: 100%;
+    height:200px;
+    background-color: black;
+    text-align: center;
+    
+}
+.footer i
+{
+    color: white;
+    text-align: center;
+    margin: 5px;
+    margin-top: 40px;
+   
+    
+}
